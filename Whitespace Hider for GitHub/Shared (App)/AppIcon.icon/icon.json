@@ -1,0 +1,137 @@
+{
+  "fill": {
+    "linear-gradient": [
+      "srgb:0.17255,0.12157,0.36863,1.00000",
+      "srgb:0.05490,0.03922,0.14902,1.00000"
+    ],
+    "orientation": {
+      "start": {
+        "x": 0.5,
+        "y": 0
+      },
+      "stop": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "features": [
+    "refractivity"
+  ],
+  "groups": [
+    {
+      "name": "Text",
+      "layers": [
+        {
+          "name": "Text",
+          "image-name": "Text.svg",
+          "glass": false
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.35
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0.5
+      },
+      "specular": false,
+      "blur-material": 0.5,
+      "refractivity": {
+        "depth": 0,
+        "enabled": true,
+        "strength": 0.5
+      }
+    },
+    {
+      "name": "Tag",
+      "layers": [
+        {
+          "name": "Tag",
+          "image-name": "Tag.svg",
+          "glass": true,
+          "opacity": 0.22
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.55
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.85
+      },
+      "specular": true,
+      "blur-material": 0,
+      "refractivity": {
+        "depth": 0,
+        "enabled": true,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Tentacle",
+      "layers": [
+        {
+          "name": "Suckers",
+          "image-name": "Suckers.svg",
+          "glass": false
+        },
+        {
+          "name": "Tentacle",
+          "image-name": "Tentacle.svg",
+          "glass": true,
+          "opacity": 0.82
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.55
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.75
+      },
+      "specular": true,
+      "blur-material": 0.5,
+      "refractivity": {
+        "depth": 0,
+        "enabled": true,
+        "strength": 0.5
+      }
+    },
+    {
+      "name": "Code",
+      "layers": [
+        {
+          "name": "Code",
+          "image-name": "Code.svg",
+          "glass": false,
+          "opacity": 0.22
+        }
+      ],
+      "shadow": {
+        "kind": "none",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0.5
+      },
+      "specular": false,
+      "blur-material": 0.5,
+      "refractivity": {
+        "depth": 0,
+        "enabled": true,
+        "strength": 0.5
+      }
+    }
+  ],
+  "supported-platforms": {
+    "circles": [
+      "watchOS"
+    ],
+    "squares": "shared"
+  }
+}

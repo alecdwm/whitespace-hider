@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70DA06CA308F1E2600FAA1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA06C9308F1E2600FAA1BF /* AppDelegate.swift */; };
+		70DA06CC308F1E2600FAA1BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA06CB308F1E2600FAA1BF /* SceneDelegate.swift */; };
+		70DA06CF308F1E2600FAA1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06CD308F1E2600FAA1BF /* LaunchScreen.storyboard */; };
+		70DA06D2308F1E2600FAA1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06D0308F1E2600FAA1BF /* Main.storyboard */; };
+		70DA06DB308F1E2600FAA1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA06DA308F1E2600FAA1BF /* AppDelegate.swift */; };
+		70DA06DE308F1E2600FAA1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06DC308F1E2600FAA1BF /* Main.storyboard */; };
+		70DA06E5308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70DA06E4308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70DA06EF308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70DA06EE308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70DA06F4308F1E2600FAA1BF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06B9308F1E2500FAA1BF /* Main.html */; };
+		70DA06F5308F1E2600FAA1BF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06B9308F1E2500FAA1BF /* Main.html */; };
+		70DA06F6308F1E2600FAA1BF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06BB308F1E2500FAA1BF /* Icon.png */; };
+		70DA06F7308F1E2600FAA1BF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06BB308F1E2500FAA1BF /* Icon.png */; };
+		70DA06F8308F1E2600FAA1BF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06BC308F1E2500FAA1BF /* Style.css */; };
+		70DA06F9308F1E2600FAA1BF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06BC308F1E2500FAA1BF /* Style.css */; };
+		70DA06FA308F1E2600FAA1BF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06BD308F1E2500FAA1BF /* Script.js */; };
+		70DA06FB308F1E2600FAA1BF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06BD308F1E2500FAA1BF /* Script.js */; };
+		70DA06FC308F1E2600FAA1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA06BE308F1E2500FAA1BF /* ViewController.swift */; };
+		70DA06FD308F1E2600FAA1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA06BE308F1E2500FAA1BF /* ViewController.swift */; };
+		70DA06FE308F1E2600FAA1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06BF308F1E2600FAA1BF /* Assets.xcassets */; };
+		70DA06FF308F1E2600FAA1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA06BF308F1E2600FAA1BF /* Assets.xcassets */; };
+		70DA0700308F1E2600FAA1BF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA06C1308F1E2600FAA1BF /* SafariWebExtensionHandler.swift */; };
+		70DA0701308F1E2600FAA1BF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA06C1308F1E2600FAA1BF /* SafariWebExtensionHandler.swift */; };
+		70DA0716308F1E2600FAA1BF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 70DA0713308F1E2600FAA1BF /* images */; };
+		70DA0717308F1E2600FAA1BF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 70DA0714308F1E2600FAA1BF /* manifest.json */; };
+		70DA0718308F1E2600FAA1BF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 70DA0715308F1E2600FAA1BF /* content.js */; };
+		70DA0719308F1E2600FAA1BF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 70DA0713308F1E2600FAA1BF /* images */; };
+		70DA071A308F1E2600FAA1BF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 70DA0714308F1E2600FAA1BF /* manifest.json */; };
+		70DA071B308F1E2600FAA1BF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 70DA0715308F1E2600FAA1BF /* content.js */; };
+		70DA0791308F1E2600FAA1BF /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 70DA0790308F1E2600FAA1BF /* AppIcon.icon */; };
+		70DA0792308F1E2600FAA1BF /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 70DA0790308F1E2600FAA1BF /* AppIcon.icon */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70DA06E6308F1E2600FAA1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DA06B3308F1E2500FAA1BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DA06E3308F1E2600FAA1BF;
+			remoteInfo = "Whitespace Hider for GitHub Extension (iOS)";
+		};
+		70DA06F0308F1E2600FAA1BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DA06B3308F1E2500FAA1BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DA06ED308F1E2600FAA1BF;
+			remoteInfo = "Whitespace Hider for GitHub Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70DA0707308F1E2600FAA1BF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70DA06E5308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA070E308F1E2600FAA1BF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70DA06EF308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70DA06BA308F1E2500FAA1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		70DA06BB308F1E2500FAA1BF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		70DA06BC308F1E2500FAA1BF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		70DA06BD308F1E2500FAA1BF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		70DA06BE308F1E2500FAA1BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70DA06BF308F1E2600FAA1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70DA06C1308F1E2600FAA1BF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		70DA06C6308F1E2600FAA1BF /* Whitespace Hider for GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whitespace Hider for GitHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DA06C9308F1E2600FAA1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70DA06CB308F1E2600FAA1BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70DA06CE308F1E2600FAA1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70DA06D1308F1E2600FAA1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70DA06D3308F1E2600FAA1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DA06D8308F1E2600FAA1BF /* Whitespace Hider for GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whitespace Hider for GitHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DA06DA308F1E2600FAA1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70DA06DD308F1E2600FAA1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70DA06DF308F1E2600FAA1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DA06E4308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Whitespace Hider for GitHub Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DA06E9308F1E2600FAA1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DA06EE308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Whitespace Hider for GitHub Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DA06F3308F1E2600FAA1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DA0713308F1E2600FAA1BF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		70DA0714308F1E2600FAA1BF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		70DA0715308F1E2600FAA1BF /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+		70DA0790308F1E2600FAA1BF /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70DA06C3308F1E2600FAA1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06D5308F1E2600FAA1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06E1308F1E2600FAA1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06EB308F1E2600FAA1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70DA06B2308F1E2500FAA1BF = {
+			isa = PBXGroup;
+			children = (
+				70DA06B7308F1E2500FAA1BF /* Shared (App) */,
+				70DA06C0308F1E2600FAA1BF /* Shared (Extension) */,
+				70DA06C8308F1E2600FAA1BF /* iOS (App) */,
+				70DA06D9308F1E2600FAA1BF /* macOS (App) */,
+				70DA06E8308F1E2600FAA1BF /* iOS (Extension) */,
+				70DA06F2308F1E2600FAA1BF /* macOS (Extension) */,
+				70DA06C7308F1E2600FAA1BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70DA06B7308F1E2500FAA1BF /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				70DA06BE308F1E2500FAA1BF /* ViewController.swift */,
+				70DA06BF308F1E2600FAA1BF /* Assets.xcassets */,
+				70DA0790308F1E2600FAA1BF /* AppIcon.icon */,
+				70DA06B8308F1E2500FAA1BF /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		70DA06B8308F1E2500FAA1BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70DA06B9308F1E2500FAA1BF /* Main.html */,
+				70DA06BB308F1E2500FAA1BF /* Icon.png */,
+				70DA06BC308F1E2500FAA1BF /* Style.css */,
+				70DA06BD308F1E2500FAA1BF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		70DA06C0308F1E2600FAA1BF /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				70DA0712308F1E2600FAA1BF /* Resources */,
+				70DA06C1308F1E2600FAA1BF /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		70DA06C7308F1E2600FAA1BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70DA06C6308F1E2600FAA1BF /* Whitespace Hider for GitHub.app */,
+				70DA06D8308F1E2600FAA1BF /* Whitespace Hider for GitHub.app */,
+				70DA06E4308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex */,
+				70DA06EE308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70DA06C8308F1E2600FAA1BF /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				70DA06C9308F1E2600FAA1BF /* AppDelegate.swift */,
+				70DA06CB308F1E2600FAA1BF /* SceneDelegate.swift */,
+				70DA06CD308F1E2600FAA1BF /* LaunchScreen.storyboard */,
+				70DA06D0308F1E2600FAA1BF /* Main.storyboard */,
+				70DA06D3308F1E2600FAA1BF /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		70DA06D9308F1E2600FAA1BF /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				70DA06DA308F1E2600FAA1BF /* AppDelegate.swift */,
+				70DA06DC308F1E2600FAA1BF /* Main.storyboard */,
+				70DA06DF308F1E2600FAA1BF /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		70DA06E8308F1E2600FAA1BF /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				70DA06E9308F1E2600FAA1BF /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		70DA06F2308F1E2600FAA1BF /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				70DA06F3308F1E2600FAA1BF /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		70DA0712308F1E2600FAA1BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70DA0713308F1E2600FAA1BF /* images */,
+				70DA0714308F1E2600FAA1BF /* manifest.json */,
+				70DA0715308F1E2600FAA1BF /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70DA06C5308F1E2600FAA1BF /* Whitespace Hider for GitHub (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DA0708308F1E2600FAA1BF /* Build configuration list for PBXNativeTarget "Whitespace Hider for GitHub (iOS)" */;
+			buildPhases = (
+				70DA06C2308F1E2600FAA1BF /* Sources */,
+				70DA06C3308F1E2600FAA1BF /* Frameworks */,
+				70DA06C4308F1E2600FAA1BF /* Resources */,
+				70DA0707308F1E2600FAA1BF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DA06E7308F1E2600FAA1BF /* PBXTargetDependency */,
+			);
+			name = "Whitespace Hider for GitHub (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Whitespace Hider for GitHub (iOS)";
+			productReference = 70DA06C6308F1E2600FAA1BF /* Whitespace Hider for GitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70DA06D7308F1E2600FAA1BF /* Whitespace Hider for GitHub (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DA070F308F1E2600FAA1BF /* Build configuration list for PBXNativeTarget "Whitespace Hider for GitHub (macOS)" */;
+			buildPhases = (
+				70DA06D4308F1E2600FAA1BF /* Sources */,
+				70DA06D5308F1E2600FAA1BF /* Frameworks */,
+				70DA06D6308F1E2600FAA1BF /* Resources */,
+				70DA070E308F1E2600FAA1BF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DA06F1308F1E2600FAA1BF /* PBXTargetDependency */,
+			);
+			name = "Whitespace Hider for GitHub (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Whitespace Hider for GitHub (macOS)";
+			productReference = 70DA06D8308F1E2600FAA1BF /* Whitespace Hider for GitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70DA06E3308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DA0704308F1E2600FAA1BF /* Build configuration list for PBXNativeTarget "Whitespace Hider for GitHub Extension (iOS)" */;
+			buildPhases = (
+				70DA06E0308F1E2600FAA1BF /* Sources */,
+				70DA06E1308F1E2600FAA1BF /* Frameworks */,
+				70DA06E2308F1E2600FAA1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whitespace Hider for GitHub Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Whitespace Hider for GitHub Extension (iOS)";
+			productReference = 70DA06E4308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		70DA06ED308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DA070B308F1E2600FAA1BF /* Build configuration list for PBXNativeTarget "Whitespace Hider for GitHub Extension (macOS)" */;
+			buildPhases = (
+				70DA06EA308F1E2600FAA1BF /* Sources */,
+				70DA06EB308F1E2600FAA1BF /* Frameworks */,
+				70DA06EC308F1E2600FAA1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whitespace Hider for GitHub Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Whitespace Hider for GitHub Extension (macOS)";
+			productReference = 70DA06EE308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70DA06B3308F1E2500FAA1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					70DA06C5308F1E2600FAA1BF = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					70DA06D7308F1E2600FAA1BF = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					70DA06E3308F1E2600FAA1BF = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					70DA06ED308F1E2600FAA1BF = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 70DA06B6308F1E2500FAA1BF /* Build configuration list for PBXProject "Whitespace Hider for GitHub" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70DA06B2308F1E2500FAA1BF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 70DA06C7308F1E2600FAA1BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70DA06C5308F1E2600FAA1BF /* Whitespace Hider for GitHub (iOS) */,
+				70DA06D7308F1E2600FAA1BF /* Whitespace Hider for GitHub (macOS) */,
+				70DA06E3308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension (iOS) */,
+				70DA06ED308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70DA06C4308F1E2600FAA1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DA06F6308F1E2600FAA1BF /* Icon.png in Resources */,
+				70DA06CF308F1E2600FAA1BF /* LaunchScreen.storyboard in Resources */,
+				70DA06F4308F1E2600FAA1BF /* Main.html in Resources */,
+				70DA06FA308F1E2600FAA1BF /* Script.js in Resources */,
+				70DA06FE308F1E2600FAA1BF /* Assets.xcassets in Resources */,
+				70DA0791308F1E2600FAA1BF /* AppIcon.icon in Resources */,
+				70DA06D2308F1E2600FAA1BF /* Main.storyboard in Resources */,
+				70DA06F8308F1E2600FAA1BF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06D6308F1E2600FAA1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DA06F7308F1E2600FAA1BF /* Icon.png in Resources */,
+				70DA06F9308F1E2600FAA1BF /* Style.css in Resources */,
+				70DA06DE308F1E2600FAA1BF /* Main.storyboard in Resources */,
+				70DA06FB308F1E2600FAA1BF /* Script.js in Resources */,
+				70DA06FF308F1E2600FAA1BF /* Assets.xcassets in Resources */,
+				70DA0792308F1E2600FAA1BF /* AppIcon.icon in Resources */,
+				70DA06F5308F1E2600FAA1BF /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06E2308F1E2600FAA1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DA071B308F1E2600FAA1BF /* content.js in Resources */,
+				70DA071A308F1E2600FAA1BF /* manifest.json in Resources */,
+				70DA0719308F1E2600FAA1BF /* images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06EC308F1E2600FAA1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DA0718308F1E2600FAA1BF /* content.js in Resources */,
+				70DA0717308F1E2600FAA1BF /* manifest.json in Resources */,
+				70DA0716308F1E2600FAA1BF /* images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70DA06C2308F1E2600FAA1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DA06FC308F1E2600FAA1BF /* ViewController.swift in Sources */,
+				70DA06CA308F1E2600FAA1BF /* AppDelegate.swift in Sources */,
+				70DA06CC308F1E2600FAA1BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06D4308F1E2600FAA1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DA06FD308F1E2600FAA1BF /* ViewController.swift in Sources */,
+				70DA06DB308F1E2600FAA1BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06E0308F1E2600FAA1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DA0700308F1E2600FAA1BF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA06EA308F1E2600FAA1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DA0701308F1E2600FAA1BF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70DA06E7308F1E2600FAA1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DA06E3308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension (iOS) */;
+			targetProxy = 70DA06E6308F1E2600FAA1BF /* PBXContainerItemProxy */;
+		};
+		70DA06F1308F1E2600FAA1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DA06ED308F1E2600FAA1BF /* Whitespace Hider for GitHub Extension (macOS) */;
+			targetProxy = 70DA06F0308F1E2600FAA1BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70DA06B9308F1E2500FAA1BF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DA06BA308F1E2500FAA1BF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		70DA06CD308F1E2600FAA1BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DA06CE308F1E2600FAA1BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		70DA06D0308F1E2600FAA1BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DA06D1308F1E2600FAA1BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70DA06DC308F1E2600FAA1BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DA06DD308F1E2600FAA1BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70DA0702308F1E2600FAA1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70DA0703308F1E2600FAA1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		70DA0705308F1E2600FAA1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whitespace Hider for GitHub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.shirls.whitespacehider.Extension;
+				DEVELOPMENT_TEAM = RWGDZAYBM8;
+				PRODUCT_NAME = "Whitespace Hider for GitHub Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70DA0706308F1E2600FAA1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				PROVISIONING_PROFILE_SPECIFIER = "Whitespace Hider Extension iOS App Store";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whitespace Hider for GitHub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.shirls.whitespacehider.Extension;
+				DEVELOPMENT_TEAM = RWGDZAYBM8;
+				PRODUCT_NAME = "Whitespace Hider for GitHub Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70DA0709308F1E2600FAA1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whitespace Hider for GitHub";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.shirls.whitespacehider;
+				DEVELOPMENT_TEAM = RWGDZAYBM8;
+				PRODUCT_NAME = "Whitespace Hider for GitHub";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70DA070A308F1E2600FAA1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				PROVISIONING_PROFILE_SPECIFIER = "Whitespace Hider App iOS App Store";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whitespace Hider for GitHub";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.shirls.whitespacehider;
+				DEVELOPMENT_TEAM = RWGDZAYBM8;
+				PRODUCT_NAME = "Whitespace Hider for GitHub";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70DA070C308F1E2600FAA1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whitespace Hider for GitHub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.shirls.whitespacehider.Extension;
+				DEVELOPMENT_TEAM = RWGDZAYBM8;
+				PRODUCT_NAME = "Whitespace Hider for GitHub Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		70DA070D308F1E2600FAA1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				PROVISIONING_PROFILE_SPECIFIER = "Whitespace Hider Extension macOS App Store";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whitespace Hider for GitHub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.shirls.whitespacehider.Extension;
+				DEVELOPMENT_TEAM = RWGDZAYBM8;
+				PRODUCT_NAME = "Whitespace Hider for GitHub Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		70DA0710308F1E2600FAA1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whitespace Hider for GitHub";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.shirls.whitespacehider;
+				DEVELOPMENT_TEAM = RWGDZAYBM8;
+				PRODUCT_NAME = "Whitespace Hider for GitHub";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		70DA0711308F1E2600FAA1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				PROVISIONING_PROFILE_SPECIFIER = "Whitespace Hider App macOS App Store";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whitespace Hider for GitHub";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.shirls.whitespacehider;
+				DEVELOPMENT_TEAM = RWGDZAYBM8;
+				PRODUCT_NAME = "Whitespace Hider for GitHub";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70DA06B6308F1E2500FAA1BF /* Build configuration list for PBXProject "Whitespace Hider for GitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DA0702308F1E2600FAA1BF /* Debug */,
+				70DA0703308F1E2600FAA1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DA0704308F1E2600FAA1BF /* Build configuration list for PBXNativeTarget "Whitespace Hider for GitHub Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DA0705308F1E2600FAA1BF /* Debug */,
+				70DA0706308F1E2600FAA1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DA0708308F1E2600FAA1BF /* Build configuration list for PBXNativeTarget "Whitespace Hider for GitHub (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DA0709308F1E2600FAA1BF /* Debug */,
+				70DA070A308F1E2600FAA1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DA070B308F1E2600FAA1BF /* Build configuration list for PBXNativeTarget "Whitespace Hider for GitHub Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DA070C308F1E2600FAA1BF /* Debug */,
+				70DA070D308F1E2600FAA1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DA070F308F1E2600FAA1BF /* Build configuration list for PBXNativeTarget "Whitespace Hider for GitHub (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DA0710308F1E2600FAA1BF /* Debug */,
+				70DA0711308F1E2600FAA1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70DA06B3308F1E2500FAA1BF /* Project object */;
+}
