@@ -1,6 +1,6 @@
 site_name: Whitespace Hider for GitHub
 site_description: Safari extension that hides whitespace changes in GitHub pull request diffs by default.
-site_url: https://alecdwm.github.io/whitespace-hider/
+site_url: https://whitespacehider.shirls.org/
 repo_url: https://github.com/alecdwm/whitespace-hider
 repo_name: alecdwm/whitespace-hider
 edit_uri: edit/main/docs/

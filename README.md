@@ -6,9 +6,9 @@
 <p align="center">
   Safari extension that turns on "Hide whitespace" by default on GitHub pull
   request diffs (<code>/pull/&lt;n&gt;/files</code> and <code>/pull/&lt;n&gt;/changes</code>).<br>
-  <a href="https://alecdwm.github.io/whitespace-hider/">Website</a> ·
-  <a href="https://alecdwm.github.io/whitespace-hider/privacy/">Privacy</a> ·
-  <a href="https://alecdwm.github.io/whitespace-hider/support/">Support</a>
+  <a href="https://whitespacehider.shirls.org/">Website</a> ·
+  <a href="https://whitespacehider.shirls.org/privacy/">Privacy</a> ·
+  <a href="https://whitespacehider.shirls.org/support/">Support</a>
 </p>
 
 It adds `?w=1` to those URLs when `w` isn't already set. Unticking "Hide
