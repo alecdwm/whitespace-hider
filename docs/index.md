@@ -13,6 +13,8 @@ title: Whitespace Hider for GitHub
   </div>
 </div>
 
+[Get it free on the App Store](https://apps.apple.com/app/id6827008239){ .app-store }
+
 GitHub shows whitespace-only changes in pull request diffs unless you tick "Hide whitespace"
 each time. This extension adds `?w=1` to a pull request's "Files changed" URL when the URL
 doesn't set `w` already, which is the same thing GitHub does when you tick the box.

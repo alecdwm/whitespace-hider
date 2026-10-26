@@ -6,6 +6,7 @@
 <p align="center">
   Safari extension that turns on "Hide whitespace" by default on GitHub pull
   request diffs (<code>/pull/&lt;n&gt;/files</code> and <code>/pull/&lt;n&gt;/changes</code>).<br>
+  <a href="https://apps.apple.com/app/id6827008239">App Store</a> ·
   <a href="https://whitespacehider.shirls.org/">Website</a> ·
   <a href="https://whitespacehider.shirls.org/privacy/">Privacy</a> ·
   <a href="https://whitespacehider.shirls.org/support/">Support</a>
@@ -14,6 +15,13 @@
 It adds `?w=1` to those URLs when `w` isn't already set. Unticking "Hide
 whitespace" makes GitHub load the page with `w=0`, which the extension leaves
 alone, so you can still show whitespace on a particular PR.
+
+## Install
+
+Get it free from the [App Store](https://apps.apple.com/app/id6827008239) for iPhone,
+iPad and Mac. Then turn the extension on and allow it on github.com: in
+Settings → Apps → Safari → Extensions on an iPhone or iPad, or in Safari →
+Settings → Extensions on a Mac.
 
 ## Building
 

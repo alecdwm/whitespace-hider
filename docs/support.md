@@ -7,6 +7,8 @@ public.
 
 ## Turning the extension on
 
+Install the app from the [App Store](https://apps.apple.com/app/id6827008239) first, then:
+
 - **iPhone and iPad:** open Settings → Apps → Safari → Extensions → Whitespace Hider for
   GitHub, turn it on, and allow it on github.com.
 - **Mac:** open Safari → Settings → Extensions, tick Whitespace Hider for GitHub, and allow it
